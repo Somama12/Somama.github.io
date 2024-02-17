@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/9f61e58f93.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <!-- -----------------HeaderSection-------------------- -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img
+            class="name"
+            src="images/Screenshot_2024-02-08_at_00.05.57-removebg-preview.png"
+            alt=""
+          />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-text">
+          <p>Full Stack Web Developer</p>
+          <h1>Hi, I am <span>Somama </span><br />Siddiqui from Nepal</h1>
+        </div>
+      </div>
+    </div>
+
+   <!-- ----------- About Section--------------- -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-cal1">
+            <img src="images/WhatsApp_Image_2024-02-11_at_1.08.19_PM-removebg-preview.png" alt="" />
+          </div>
+          <div class="about-cal2">
+            <h1 class="subtitle">About Me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+              perspiciatis ratione officia temporibus voluptas cum illo
+              praesentium non commodi, assumenda natus consectetur
+              necessitatibus illum sint dolorum rem, accusantium inventore
+              aspernatur alias ut. Maxime dicta laborum voluptate obcaecati
+              adipisci? Officia numquam nostrum, fugiat explicabo atque
+              laudantium consequatur corporis, cum possimus, recusandae beatae
+              asperiores? Blanditiis, eum dicta!
+            </p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link"  onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('education')" >Education</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            </div>
+            <div class="tab-contents tab-active" id="skills">
+                <ul>
+                    <li><span>Android Developer</span><br>Frontend Development using Html,Css,Javascript and Reactjs</li>
+                    <li><span>Backend Web Development </span><br>Utilizing Nodejs, Expressjs.</li>
+                    <li><span>FullStack Web Development</span><br>Frontend Development using html,css,javascript and reactjs</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2023-Present</span><br>Pursuing bachelor's degree in Mathematics and Computer Science from St. Joseph's University, Brooklyn</li>
+                    <li><span>2020-2022 </span><br>High School graduate from Xavier International College.</li>
+                    <li><span>2010-2020</span><br>Secondary School from Nepal Avalanche Academy.</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2023-Present</span><br>Frontend Development using Html,Css,Javascript and Reactjs</li>
+                    <li><span>Backend Web Development </span><br>Utilizing Nodejs, Expressjs.</li>
+                    <li><span>FullStack Web Development</span><br>Frontend Development using html,css,javascript and reactjs</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- ----------------------Services Section---------------------- -->
+    <div class="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                  <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, iusto. Nostrum, unde. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore totam non, hic ex delectus sequi eius. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                  <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Backend Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, iusto. Nostrum, unde. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat magni natus explicabo. </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --------------portfolio-section--------- -->
+    <div class="portfolio">
+      <div class="container">
+        <h1 class="subtitle">My Works</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images 2/work-1.png" >
+            <div class="layer">
+              <h3>Student Assistant</h3>
+              <p>This webapp assists international students with College Application. It's like a chatbot developed using open AI api.</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images 2/work-2.png" >
+            <div class="layer">
+              <h3>Weather App</h3>
+              <p>It gives weather information of different cities. You can get weather details of any city just by giving name.</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+            
+          </div>
+          <div class="work">
+            <img src="images 2/work-3.png" >
+            <div class="layer">
+              <h3>Halloween Killer Game</h3>
+              <p>It like an action game developed using java. You just have fire bullets towards the halloween using jet.</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+            
+          </div>
+          
+        </div>
+
+        <a class="btn" href="#">See more</a>
+      </div>
+    </div>
+
+
+    <!-- ..............contact-section.............  -->
+    <script  src="script.js"></script>
+    <div class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="subtitle"> Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>somamasiddiqui11@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>516-961-0940</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/somamasiddiqui123" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/somama-siddiqui/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="resume1.pdf" download target="_blank" class="btn btn2"><i class="fa-solid fa-download"></i> Resume</a>
+          </div>
+          <div class="contact-right">
+            <form >
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="Message"   rows="6" placeholder="Your Messages"></textarea>
+              <button type="button" class="btn btn2" >Submit </button>
+            </form>
+          </div>
+        </div>
+      </div>
+        
+      <div class="copyright">
+        <p>Copyright © Somama Siddiqui.</p>
+      </div>
+    </div>
+
+  </body>
+</html>
